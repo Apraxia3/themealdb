@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+The FreeMealApp is a client-side front-end web development project created for the final exam submission in the Client-side Front-End Development course at Swiss German University by Aldi Putra, Hansel Zorya Ashero, and Winston Narada Kusumahadi.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Executive Summary
+The project utilizes Firebase for user login and the themealdb API to search for recipes along with ingredients and instructions. Localstorage is implemented to save the user's search history.
 
-## Available Scripts
+## Project Roles
+- Aldi Putra: FreeMeal API Connect (Search Bar), Showing Ingredients and Descriptions, Localstorage
+- Hansel Zorya Ashero: UI Web Design, Firebase Login with Google Account
+- Winston Narada Kusumahadi: Firebase Login with Google Account, Localstorage, FreeMeal API Connect (Sort by Letters)
 
-In the project directory, you can run:
+## Project Implementation
+The team created the web app using React, integrated Firebase for authentication, and utilized the themealdb API for recipe information. They implemented local storage to save user search history. The project involved creating React components, setting up Firebase configuration, and designing the user interface. The login functionality was implemented using Google Account authentication.
 
-### `npm start`
+## Challenges and Solutions
+1. **The Initial Codes Didn't Work:**
+   - The team faced issues with localstorage and Firebase working on different devices. Merging both sets of code and resolving conflicts led to a functional Meal App.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **React Router DOM Properties Unreadable:**
+   - Challenges arose with React Router DOM not reading properties of the map variable. The team resolved this by iterating through API elements individually to ensure proper functioning.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Outdated Firebase:**
+   - The team encountered errors related to Firebase dependencies while installing react-router-dom. Uninstalling, reinstalling, and updating Firebase resolved the issue, allowing for successful installation of react-router-dom.
 
-### `npm test`
+## Video of Implementation
+A video demonstrating the implementation of the FreeMealApp is provided [here](https://drive.google.com/file/d/1j7lTHL1m3HZFOF8gfNSGprcMsfT4eLrl/view?usp=sharing).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project demonstrates collaboration in front-end development, utilizing various technologies to create a user-friendly web application for exploring and saving meal recipes.
